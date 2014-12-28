@@ -1,0 +1,177 @@
+seed = 1.234
+stepNum = 2
+stepSize = 1.0
+stepRange = 0.1
+jitAngleRange = .3 
+branchAngle = 29.0
+branchAngleRange = 1.1
+maxPoints = 50000
+
+
+attNum = 12
+elemNum = 11 
+
+  #self.Name
+  #self.Type  'numeric' or 'string', or None for 'array'
+  #self.Scope
+  #self.Options
+  #self.TupleSize
+  #self.Defaults (optional), an int, float or tuple, which must be in a list []
+  #self.Strings (optional) a string
+  #self.Storage
+  #self.Array
+
+
+start att def
+id        #self.Name 
+0           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+P        #self.Name 
+1           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+{"type":{"type" : "string","value" : "hpoint"}}          #self.Options
+4           #self.TupleSize
+[0,0,0,1]   #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+line      #self.Name 
+2           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+parentId        #self.Name 
+3           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+parentPos        #self.Name 
+4           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+"parentLine"#self.Name 
+5           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+angle        #self.Name 
+6           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+dir      #self.Name 
+7           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+walk     #self.Name 
+8           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+birthStep        #self.Name 
+9           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+alive        #self.Name 
+10           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+
+split        #self.Name 
+11           #my index for allPoints
+numeric   #self.Type  'numeric' or 'string', or None for 'array'
+public    #self.Scope
+""          #self.Options
+1           #self.TupleSize
+[0]         #self.Defaults (optional), an int, float or tuple, which must be in a list []
+""            #self.Strings (optional) a string
+fpreal64  #self.Storage
+            #self.Array is initials by Attribute Class, set later by a get call to 'values'. the save
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
