@@ -1,4 +1,4 @@
-#! /usr/bin/env python2.6
+#! /usr/bin/env python
 import string
 
 game = 'hello'
@@ -8,7 +8,7 @@ x =  string.capitalize(game)
 #print x
 #print hello
 
-game.encode() = 23
-
+g = game.encode()
+print x
 #exec('string(game)') = 23
-print hello
+
